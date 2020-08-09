@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_search_teacher_name"
+            android:icon="@drawable/ic_teacher_info"
+            android:title="Search By Teacher Name" />
+        <item
+            android:id="@+id/nav_search_teacher_initial"
+            android:icon="@drawable/ic_teacher_initial"
+            android:title="Search By Teacher Initial" />
+
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/ic_course"
+            android:title="Course And Credits" />
+        <item
+            android:id="@+id/nav_application"
+            android:icon="@drawable/ic_application"
+            android:title="Application Format" />
+    </group>
+
+    <item android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/nav_developers"
+                android:icon="@drawable/ic_developers"
+                android:title="Learn About Developers" />
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DIU Student Support\n</string>
+
+    <string name="app_details">Welcome to DIU Student Support.
+        \nThis app is made for students help and support.
+        Here in this app you can search for teacher initial, teacher name and all details about teacher.
+        You can also have all the Application Format which is needed and the details about all courses and credits.
+        Thank you.
+    </string>
+
+    <string name="button1">Next</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="search_hint">Enter teacher name</string>
+    <string name="search_string">Search</string>
+</resources>
